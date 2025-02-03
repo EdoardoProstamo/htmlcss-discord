@@ -67,12 +67,18 @@ main > section {
     background-color: #1e90ff;
     flex-grow: 1;
 }
-.Sezione-3 {
+.Sezione-3, .Sezione-5 {
     background-color: #d3d3d3;
 }
 /*/Sezione 2*/
 
-
+/*Sezione 5*/
+.Contenitore-3 {
+    height: 900px;
+    width: 1190px;
+    background-color: #228b22;
+}
+/*/Sezione 5*/
 
 
 /*/Main*/
