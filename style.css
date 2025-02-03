@@ -33,3 +33,22 @@ header {
     border-right: 2px dashed black;
 }
 /*/Header*/
+
+
+/*Main*/
+main > section {
+    padding: 50px 250px;
+}
+
+.Sezione-1{
+    background-color: #00008b;
+    padding: 50px 350px;
+}
+
+.Jumbotron {
+ width: 907px;
+ height: 397px;
+ background-color: #ee82ee;
+ align-self: center;
+}
+/*/Main*/
