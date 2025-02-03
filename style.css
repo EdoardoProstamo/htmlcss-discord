@@ -47,14 +47,37 @@ main > section {
 
 /*Sezione 1*/
 .Sezione-1{
-    background-color: #00008b;
+    background-image: url(img/jumbo.png);
     padding: 50px 350px;
 }
 .Jumbotron {
  width: 907px;
  height: 397px;
- background-color: #ee82ee;
- align-self: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-content: center;
+ color: #ffffff;
+}
+.Button {
+    display: flex;
+    justify-content: space-around;
+}
+.Button-1, .Button-2 {
+    border-radius: 40%;
+    border: 0px;
+    border-color: #ffffff;
+    width: 100px;
+    padding: 10px;
+}
+.Button-2 {
+    background-color: #23272a;
+    color: #ffffff;
+}
+.Titolo {
+    align-self: center;
+    color: #ffffff;
+    font-size: xx-large;
 }
 /*/Sezione 1*/
 
