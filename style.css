@@ -39,6 +39,10 @@ header {
 main > section {
     padding: 50px 250px;
 }
+.Scatola {
+    height: 490px;
+    display: flex;
+}
 
 /*Sezione 1*/
 .Sezione-1{
@@ -54,10 +58,6 @@ main > section {
 /*/Sezione 1*/
 
 /*Sezione 2*/
-.Scatola {
-    height: 490px;
-    display: flex;
-}
 .Contenitore-2 {
     width: 595px;
     background-color: #ffc0cb;
@@ -79,6 +79,22 @@ main > section {
     background-color: #228b22;
 }
 /*/Sezione 5*/
+
+/*Sezione 6*/
+.Contenitore-5 {
+    width: 210px;
+    background-color: #f08080;
+    flex-shrink: 0;
+    border: 2px dashed black;
+}
+.Contenitore-4 {
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dashed black;
+}
+
+/*/Sezione 6*/
+
 
 
 /*/Main*/
