@@ -40,15 +40,39 @@ main > section {
     padding: 50px 250px;
 }
 
+/*Sezione 1*/
 .Sezione-1{
     background-color: #00008b;
     padding: 50px 350px;
 }
-
 .Jumbotron {
  width: 907px;
  height: 397px;
  background-color: #ee82ee;
  align-self: center;
 }
+/*/Sezione 1*/
+
+/*Sezione 2*/
+.Scatola {
+    height: 490px;
+    display: flex;
+}
+.Contenitore-2 {
+    width: 595px;
+    background-color: #ffc0cb;
+    flex-shrink: 0;
+}
+.Contenitore-1 {
+    background-color: #1e90ff;
+    flex-grow: 1;
+}
+.Sezione-3 {
+    background-color: #d3d3d3;
+}
+/*/Sezione 2*/
+
+
+
+
 /*/Main*/
