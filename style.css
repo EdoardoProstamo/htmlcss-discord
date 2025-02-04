@@ -15,23 +15,24 @@ header {
 .Menu {
     width: 1190px;
     display: flex;
+    align-items: center;
 }
 .Logo, .Login { 
     flex-shrink: 0; 
     width: 100px;
 }
 .Login {
-    text-align: center;
-    border-radius: 40%;
-    border: 0px;
+    padding: 15px 20px;
+    border-radius: 35px;
+    display: inline-block;
     border-color: #ffffff;
 }
 .Link {
-    text-align: center;
+    color: #ffffff;
     flex-grow: 1;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 60px;
+    justify-content: center;
 }
 /*/Header*/
 
@@ -49,36 +50,38 @@ main > section {
 /*Sezione 1*/
 .Sezione-1{
     background-image: url(img/jumbo.png);
+    background-size: cover;
     padding: 50px 350px;
 }
 .Jumbotron {
  width: 907px;
  height: 397px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-content: center;
+ display: inline-block;
+text-align: center;
  color: #ffffff;
 }
 .Button {
-    display: flex;
-    justify-content: space-around;
+    
 }
 .Button-1, .Button-2 {
-    border-radius: 40%;
-    border: 0px;
+    padding: 15px 20px;
+    border-radius: 35px;
+    display: inline-block;
     border-color: #ffffff;
-    width: 100px;
-    padding: 10px;
 }
 .Button-2 {
     background-color: #23272a;
     color: #ffffff;
 }
 .Titolo {
-    align-self: center;
     color: #ffffff;
-    font-size: xx-large;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.Testo {
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 20px;
 }
 /*/Sezione 1*/
 
@@ -111,7 +114,9 @@ main > section {
 .Second {
     background-color: #7288da;
     color: #ffffff;
-    width: 100px;
+    padding: 15px 20px;
+    border-radius: 35px;
+    display: inline-block;
 }
 /*/Sezione 5*/
 
